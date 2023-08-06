@@ -6,5 +6,6 @@
 }
 
 
-azure cmd:az ad sp create-for-rbac --name adm-sevice-principal --role Owner --scopes /subscriptions/ff4aa5ce-9ea8-41fc-b9df-d13f96a9520c
-
+1) azure cmd:az ad sp create-for-rbac --name adm-sevice-principal --role Owner --scopes /subscriptions/ff4aa5ce-9ea8-41fc-b9df-d13f96a9520c
+2) az webapp deploy --resource-group pm-group --name spingbootwebapp --src-path ./<package-name>.war
+3) az webapp stop --resource-group pm-group  --name sprinbootwebapp
